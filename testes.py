@@ -41,7 +41,7 @@ def calcular_ear(olho):
 ap = argparse.ArgumentParser()
 ap.add_argument("-a", "--alarme", type=str, default="alarm.wav",
                 help="Usar alarme sonoro?")
-ap.add_argument("-w", "--webcam", type=int, default=0,
+ap.add_argument("-w", "--webcam", type=int, default=1,
                 help="índice da webcam no sistema")
 args = vars(ap.parse_args())
 
@@ -49,7 +49,7 @@ args = vars(ap.parse_args())
 # um piscar de olhos e uma segunda constante para o número de quadros consecutivos
 # que o olho deve estar abaixo do limiar para disparar o alarme
 LIMIAR_EAR = 0.25
-QTD_CONSEC_FRAMES = 10
+QTD_CONSEC_FRAMES = 15
 
 # Inicializa o contador de quadros e uma variável booleana para
 # indicar se o alarme está tocando
