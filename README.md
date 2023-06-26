@@ -8,7 +8,7 @@
   <h1>Detecção de Fadiga</h1>
   <p>Este é um projeto de detecção de fadiga que utiliza a relação de aspecto dos olhos (EAR) para identificar sinais de sonolência em pessoas. O código é capaz de capturar o vídeo de uma webcam, detectar os rostos presentes no vídeo e calcular o EAR para cada olho. Se o EAR estiver abaixo de um determinado limiar por um número consecutivo de quadros, um alarme será acionado indicando a sonolência.</p>
   <p align="center">
-  <img src="https://github.com/carlosfab/especializacao-visao-computacional/blob/main/img/drowsiness.gif?raw=true" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemV1MG9haHRpemRlOXI4ZWdjczlnZ2xpYjJuNWdiY3c0eDF3c2dxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7WFB3NWFa6ZytEnvyd/giphy.gif" />
   </p>
   <h2>Aplicações</h2>
   <p>Este projeto pode ser útil em situações em que a sonolência do operador ou condutor é uma preocupação, como em sistemas de monitoramento de motoristas, sistemas de segurança em ambientes de trabalho, entre outros.</p>
