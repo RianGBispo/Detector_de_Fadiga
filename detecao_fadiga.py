@@ -80,6 +80,7 @@ fig = plt.figure(figsize=(8, 4))
 ax = fig.add_subplot(111, facecolor='black')
 li, = ax.plot(x, y, color='white')
 
+
 # Faz loop nos quadros do fluxo de vídeo
 while True:
     # Pega o quadro do fluxo de vídeo em arquivo, redimensiona
