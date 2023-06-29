@@ -49,7 +49,7 @@ args = vars(ap.parse_args())
 # um piscar de olhos e uma segunda constante para o número de quadros consecutivos
 # que o olho deve estar abaixo do limiar para disparar o alarme
 LIMIAR_EAR = 0.25
-QTD_CONSEC_FRAMES = 15
+QTD_CONSEC_FRAMES = 10
 
 # Inicializa o contador de quadros e uma variável booleana para
 # indicar se o alarme está tocando
