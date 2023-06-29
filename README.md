@@ -52,5 +52,7 @@
     <li>Visualização da relação de aspecto dos olhos (EAR) ao longo do tempo utilizando a biblioteca <code>matplotlib</code>.</li>
   </ul>
   <p align="center"><em>Este projeto é fornecido como está, sem garantias ou responsabilidades. Use por sua própria conta e risco.</em></p>
+
+  referencias: Carlos melo do Blog Sigmoidal https://sigmoidal.ai/detector-de-fadiga-usando-python/
 </body>
 </html>
