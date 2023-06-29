@@ -1,5 +1,3 @@
-# Detector_de_Fadiga
-O programa desenvolvido é capaz de identificar sinais de fadiga em tempo real, como o fechamento prolongado dos olhos, a partir de um fluxo de vídeo gravado ou em tempo real.
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,6 +7,9 @@ O programa desenvolvido é capaz de identificar sinais de fadiga em tempo real, 
 <body>
   <h1>Detecção de Fadiga</h1>
   <p>Este é um projeto de detecção de fadiga que utiliza a relação de aspecto dos olhos (EAR) para identificar sinais de sonolência em pessoas. O código é capaz de capturar o vídeo de uma webcam, detectar os rostos presentes no vídeo e calcular o EAR para cada olho. Se o EAR estiver abaixo de um determinado limiar por um número consecutivo de quadros, um alarme será acionado indicando a sonolência.</p>
+  <p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemV1MG9haHRpemRlOXI4ZWdjczlnZ2xpYjJuNWdiY3c0eDF3c2dxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7WFB3NWFa6ZytEnvyd/giphy.gif" />
+  </p>
   <h2>Aplicações</h2>
   <p>Este projeto pode ser útil em situações em que a sonolência do operador ou condutor é uma preocupação, como em sistemas de monitoramento de motoristas, sistemas de segurança em ambientes de trabalho, entre outros.</p>
   <h2>Estrutura do Projeto</h2>
@@ -51,5 +52,7 @@ O programa desenvolvido é capaz de identificar sinais de fadiga em tempo real, 
     <li>Visualização da relação de aspecto dos olhos (EAR) ao longo do tempo utilizando a biblioteca <code>matplotlib</code>.</li>
   </ul>
   <p align="center"><em>Este projeto é fornecido como está, sem garantias ou responsabilidades. Use por sua própria conta e risco.</em></p>
+
+  referencias: Carlos melo do Blog Sigmoidal https://sigmoidal.ai/detector-de-fadiga-usando-python/
 </body>
 </html>
